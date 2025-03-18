@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+div {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    background-color: pink;
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* @media (max-width: 400px) {
+    .container {
+        width: 90%;
+    }
+} */
+
+    </style>
+</head>
+<body>
+<body>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form>
+            <div>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" placeholder="Enter first name" required>
+            </div>
+            <div>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" placeholder="Enter last name" required>
+            </div>
+            <div>
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Enter subject" required>
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+
+</body>
+</html>

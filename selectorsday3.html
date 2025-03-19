@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <link rel="stylesheet" href="selectorsday3.css">
+</head>
+
+<body>
+    <!-- Universal selector -->
+    <p>
+        This is a paragraph.
+    </p>
+    <h1>
+        This is h1 heading.
+    </h1>
+    <h2>
+        This is h2 heading.
+    </h2>
+    <div>
+        This is 1st div.
+    </div>
+    <div>
+        This is second div.
+    </div><br><br>
+    <!-- class selector -->
+    <div class="class_selector">
+        This is a class selector
+    </div><br><br>
+    <!-- id selector -->
+    <p id="id_selector">
+        This is a id selector
+    </p><br><br>
+    <!-- Attribute selector -->
+    <input type="text">
+    <!-- grouping elements -->
+    <!-- <p>
+        This is to group elements(p)
+       </p>
+       <h1>
+        This is to group elements(h)
+       </h1>
+       <div>
+        This is to group elements(div)
+       </div> -->
+       <br><br><br>
+    <!-- Desecendant -->
+    <div class="parent">
+        <div>
+            This is 1st child
+        </div>
+        <div>
+            This is 2nd child
+            <div>
+                This is grand child
+            </div>
+        </div>
+        <p>
+            this is 3rd child
+        </p>
+    </div>
+    <br><br><br>
+    <!-- child-only -->
+    <div class="parentchild1">
+        <div>
+            This is 1st child
+        </div>
+        <div>
+            This is 2nd child
+            <div>
+                This is grand child
+            </div>
+        </div>
+        <p>
+            this is 3rd child
+        </p>
+    </div><br><br><br>
+    <!-- Adjacent siblings -->
+    <div class="parentchild2">
+        <div class="child">
+            This is 1st child
+        </div>
+        <div>
+            This is 2nd child
+            <div>
+                This is grand child
+            </div>
+        </div>
+        <p>
+            this is 3rd child
+        </p>
+    </div><br><br><br>
+    <!-- General siblings -->
+    <div class="General">
+        <div class="childsibling">
+            This is 1st child
+        </div>
+        <div>
+            This is 2nd child
+            <div>
+                This is grand child
+            </div>
+        </div>
+        <p>
+            this is 3rd child
+            <p>This is grand child </p>
+        </p>
+        <p>This is 4th child</p>
+    </div>
+</body>
+
+</html>

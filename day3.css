@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    color: pink;
+}
+p{
+    color:blue;
+}
+.h11{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type="text"]{
+    height:70px;
+    width: 79px;;
+}
+.parent p{
+    color:palegreen;
+}
+#in1{
+    border: 5px solid black;
+    margin-left:60px ;
+}
+#in2{
+    border: 5px solid black;
+    margin-left:60px ;
+}
+.child-selector>.chill{
+    color: moccasin;
+}
+.adjacent-div+p{
+    color: black;
+}
+.pp+div{
+    color: bisque;
+}
